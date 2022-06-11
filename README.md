@@ -1,4 +1,5 @@
 **Read in other languages: [Русский](README.md), [Polski](README.pl.md).**
+[maket](https://www.figma.com/file/vUcwPF9zRVwt7ApDL9zawF/Richard-(Copy)?node-id=0%3A1)
 
 # Parcel template
 
