@@ -3,6 +3,13 @@
   width: 1440px;
   padding: 29px 15px 28px;
   align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(207, 0, 99, 1),
+    rgba(69, 14, 75, 1),
+    rgba(60, 12, 65, 1),
+    rgba(207, 0, 99, 0)
+  );
 }
 .header__logo {
   margin: 0;
@@ -24,11 +31,14 @@
     margin-right: 30px;
   }
   margin-left: auto;
-  background-color: white;
 }
 .nav__link {
   margin: 0;
   padding: 0;
-  color: black;
-  background-color: white;
+  border-radius: 0;
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
 }
