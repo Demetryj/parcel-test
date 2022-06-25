@@ -64,16 +64,16 @@ img {
   align-items: center;
   margin-bottom: 80px;
 }
-.review-dot {
-  width: 7px;
-  height: 7px;
-  background: rgba(34, 34, 34, 0.4);
-}
 .review-point {
   width: 7px;
   height: 7px;
-  background: #222222;
+  background: rgba(34, 34, 34, 0.4);
   margin-left: 16px;
+}
+.review-dot {
+  width: 7px;
+  height: 7px;
+  background: #222222;
 }
 .review-image {
   display: block;
