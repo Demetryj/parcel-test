@@ -1,7 +1,15 @@
-.menu__container {
-  max-width: 1440px;
+.menu {
+  font-family: 'Gothic A1', sans-serif;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.menu__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  //   border: 1px solid red;
 }
 
 .menu__list {
@@ -10,16 +18,25 @@
 
 .menu__item {
   display: flex;
-  margin-bottom: 161px;
-}
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 160px;
 
-.menu__item:last-child {
+  &:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
 }
 
 .menu__info {
   width: 330px;
-  margin-top: 30px;
-  margin-right: 77px;
+
+  .menu__item:nth-child(2n) & {
+    margin-left: 77px;
+  }
+
+  .menu__item:nth-child(2n + 1) & {
+    margin-right: 77px;
+  }
 }
 
 .menu__img {
@@ -29,7 +46,6 @@
 }
 
 .menu__pretitle {
-  font-family: 'Gothic A1';
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 2px;
@@ -42,7 +58,6 @@
 }
 
 .menu__title {
-  font-family: 'Gothic A1';
   font-weight: 400;
   font-size: 38px;
   line-height: 1.26;
@@ -54,9 +69,14 @@
 }
 
 .menu__desc {
-  font-family: 'Gothic A1';
   font-size: 16px;
   line-height: 1.88;
   color: #6b6b6b;
   margin: 0;
+}
+
+.menu__text-mark {
+  font-weight: 700;
+  line-height: 1.88;
+  text-decoration-line: underline;
 }
