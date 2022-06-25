@@ -1,0 +1,62 @@
+.menu__container {
+  max-width: 1440px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.menu__list {
+  list-style: none;
+}
+
+.menu__item {
+  display: flex;
+  margin-bottom: 161px;
+}
+
+.menu__item:last-child {
+}
+
+.menu__info {
+  width: 330px;
+  margin-top: 30px;
+  margin-right: 77px;
+}
+
+.menu__img {
+  width: 519px;
+  height: 414px;
+  background-color: #6b6b6b;
+}
+
+.menu__pretitle {
+  font-family: 'Gothic A1';
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #a8a8a8;
+
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.menu__title {
+  font-family: 'Gothic A1';
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.26;
+
+  color: #000000;
+
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.menu__desc {
+  font-family: 'Gothic A1';
+  font-size: 16px;
+  line-height: 1.88;
+  color: #6b6b6b;
+  margin: 0;
+}
