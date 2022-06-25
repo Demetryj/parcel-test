@@ -131,4 +131,7 @@ a {
   padding: 0;
   margin: 0;
   height: 35px;
+}
+.partners_link:focus, .partners_link:hover {
+  color: tomato;
 }/*# sourceMappingURL=index.css.map */
