@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  margin-left: auto;
+}
