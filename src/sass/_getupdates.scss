@@ -1,0 +1,74 @@
+.section__getupdates {
+    background: #1B1B1B;
+    border-radius: 0px;
+    padding-top: 129px;
+    padding-bottom: 126px;
+}
+
+.name__getupdates {
+    margin-top: 0;
+    margin-bottom: 20px;
+    // font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text__getupdates {
+    margin-bottom: 40px;
+    // font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.form__getupdates {
+    display: flex;
+    justify-content:center;
+}
+
+.input__getupdates {
+    padding: 26px;
+    width: 311px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px #FC0A7E;
+    border-radius: 3px 0px 0px 3px;    
+    border: none;
+    &::placeholder {
+        display: flex;
+        // font-family: 'Gothic A1';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: left;
+        width: 153px;
+        height: 26px;
+    }
+    }
+
+.btn__getupdates {
+    display: flex;
+    width: 154px;
+    height: 70px;
+    left: 66.99%;
+    right: -0.11%;
+    top: 0.02px;
+    background: #FC0A7E;
+    border-radius: 0px 3px 3px 0px ;
+    border: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+        color: #e2d4db;
+    }
+}
