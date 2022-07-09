@@ -26,6 +26,30 @@
   background-position: center;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
 /* Стили для подложки */
 .overlay {
   /* Скрываем подложку  */
@@ -93,6 +117,7 @@ a {
   color: #fff;
   border-radius: 3px;
 }
+
 
 .section__getupdates {
   background: #1B1B1B;
@@ -180,4 +205,45 @@ a {
 }
 .btn__getupdates:hover, .btn__getupdates:focus {
   color: #e2d4db;
+
+.statistika {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.statistika {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.statistika__list {
+  display: flex;
+  justify-content: space-around;
+}
+.statistika__numbers {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 1.5;
+  text-align: center;
+  color: #333333;
+}
+.statistika__text {
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+  color: #000000;
+
 }/*# sourceMappingURL=index.css.map */
