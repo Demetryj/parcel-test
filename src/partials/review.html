@@ -1,12 +1,37 @@
-<section>
-        <!-- hide H -->
-        <h2>review</h2>
-        <p>
-          HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi
-          erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet fermentum. Donec id
-          elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis
-          euismod.ing
-        </p>
-        <span>Joshua Home</span>
-        <span>New York Times</span>
-      </section>
+<section class="review">
+  <!-- hide H -->
+  <div class="container"></div>
+  <h2 class="visually-hidden">review</h2>
+  <img class="review-image" src="/src/images/image1.svg" alt="Лапки" width="58" height="54"/>
+  <p class="review-text">
+    HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo
+    luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit
+    amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam
+    porta sem malesuada magna mollis euismod.ing
+  </p>
+  <ul class="reviem-item">
+  <span class="review-person">Joshua Home</span>
+  <span class="review-line"></span>
+  <span class="review-city">New York Times</span>
+  </ul>
+  <ul class="review-symbol">
+    <span class="review-dot"></span>
+    <span class="review-point"></span>
+  </ul>
+    <img class="review-partner" src="/src/images/bgimage.svg" alt="Партнери" width="1008" height="35"/>
+  </div>
+</section>
+<a href="#" class="js-open-modal" data-modal="3">Открыть окно 3</a>
+<div class="modal" data-modal="3">
+  <!--   Svg иконка для закрытия окна  -->
+  <svg
+    class="modal__cross js-modal-close"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+    />
+  </svg>
+  <p class="modal__title">Заголовок окна 3</p>
+</div>

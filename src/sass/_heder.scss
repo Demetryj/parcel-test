@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  width: 1440px;
+  padding: 29px 15px 28px;
+  align-items: center;
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0%,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
+}
+.header__logo {
+  margin: 0;
+  padding: 0;
+  margin-right: 650px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  margin: 0;
+  padding: 0;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  margin-left: auto;
+}
+.nav__link {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+}

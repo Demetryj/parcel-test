@@ -1,0 +1,410 @@
+@charset "UTF-8";
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #2f2f37;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff6b0a;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+/* Стили для подложки */
+.overlay {
+  /* Скрываем подложку  */
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  transition: 0.3s all;
+}
+
+/* Стили для модальных окон */
+.modal {
+  /* Скрываем окна  */
+  opacity: 0;
+  visibility: hidden;
+  /*  Установаем ширину окна  */
+  width: 100%;
+  max-width: 500px;
+  /*  Центрируем и задаем z-index */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  /* Должен быть выше чем у подложки*/
+  /*  Побочные стили   */
+  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: 0.3s all;
+}
+
+/* Стили для активных классов подложки и окна */
+.modal.active,
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Стили для кнопки закрытия */
+.modal__cross {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: #444;
+  cursor: pointer;
+}
+
+/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
+a {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #414b52;
+  margin: 10px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+
+.footer {
+  width: 1440px;
+  height: 242px;
+  background-color: #1B1B1B;
+  padding: 0.3px auto;
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.list {
+  list-style: none;
+}
+
+.soc-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.soc-list__link {
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 1.82;
+  text-align: center;
+  color: #6B6B6B;
+
+
+.conteiner-partners {
+  min-width: 1140px;
+  padding-right: 72px;
+  padding-left: 72px;
+}
+
+.partners-section {
+  padding: 40px 144px;
+}
+
+.partners {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.partners_item {
+  padding: 0;
+  margin: 0;
+}
+
+.partners_link {
+  text-decoration: none;
+  text-align: center;
+  display: inline;
+  color: grey;
+  background-color: transparent;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  height: 35px;
+}
+.partners_link:focus, .partners_link:hover {
+  color: tomato;
+
+
+.menu {
+  font-family: "Gothic A1", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.menu__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu__list {
+  list-style: none;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+.menu__item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.menu__info {
+  width: 330px;
+}
+.menu__item:nth-child(2n) .menu__info {
+  margin-left: 77px;
+}
+.menu__item:nth-child(2n+1) .menu__info {
+  margin-right: 77px;
+}
+
+.menu__img {
+  width: 519px;
+  height: 414px;
+  background-color: #6b6b6b;
+}
+
+.menu__pretitle {
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.menu__title {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.menu__desc {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #6b6b6b;
+  margin: 0;
+}
+
+.menu__text-mark {
+  font-weight: 700;
+  line-height: 1.88;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+
+
+.section__getupdates {
+  background: #1B1B1B;
+  border-radius: 0px;
+  padding-top: 129px;
+  padding-bottom: 126px;
+}
+
+.name__getupdates {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.text__getupdates {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6B6B6B;
+}
+
+.form__getupdates {
+  display: flex;
+  justify-content: center;
+}
+
+.input__getupdates {
+  padding: 26px;
+  width: 311px;
+  height: 70px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 0px #FC0A7E;
+  border-radius: 3px 0px 0px 3px;
+  border: none;
+}
+.input__getupdates::-moz-placeholder {
+  display: flex;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  width: 153px;
+  height: 26px;
+}
+.input__getupdates:-ms-input-placeholder {
+  display: flex;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  width: 153px;
+  height: 26px;
+}
+.input__getupdates::placeholder {
+  display: flex;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  width: 153px;
+  height: 26px;
+}
+
+.btn__getupdates {
+  display: flex;
+  width: 154px;
+  height: 70px;
+  left: 66.99%;
+  right: -0.11%;
+  top: 0.02px;
+  background: #FC0A7E;
+  border-radius: 0px 3px 3px 0px;
+  border: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btn__getupdates:hover, .btn__getupdates:focus {
+  color: #e2d4db;
+
+.statistika {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.statistika {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.statistika__list {
+  display: flex;
+  justify-content: space-around;
+}
+.statistika__numbers {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 1.5;
+  text-align: center;
+  color: #333333;
+}
+.statistika__text {
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+  color: #000000;
+
+
+
+}/*# sourceMappingURL=index.css.map */
