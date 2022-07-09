@@ -182,6 +182,58 @@ a {
   color: #a8a8a8;
 }
 
+.aenean-title {
+  margin: 0;
+  margin-bottom: 55px;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  color: #ffffff;
+}
+
+.anenean-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.adventures {
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-top: 40px;
+}
+
+.adventures-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.adventures-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.adventures-block {
+  max-width: 450px;
+  padding-right: 58px;
+  padding-left: 58px;
+}
+
+.images-adventures {
+  width: 341px;
+  height: 637px;
+  background-color: #6b6b6b;
+}
+
+.adventures-top-text {
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+
 
 .aenean-title {
   margin: 0;
@@ -270,6 +322,7 @@ a {
   text-transform: uppercase;
   color: #a8a8a8;
 }
+
 
 
 .adventures-title {
@@ -592,6 +645,9 @@ img {
 }
 
 
+
+
+
 .review-person {
   font-family: "Gothic A1";
   font-style: normal;
@@ -634,6 +690,109 @@ img {
 }
 
 
+.review-partner {
+  width: 1008px;
+  height: 35px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 1440px;
+  height: 463px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  background: #1b1b1b;
+  border-radius: 0px;
+}
+
+.container-center {
+  justify-content: center;
+  width: 465px;
+  height: 303px;
+  left: calc(50% - 232.5px + 0.5px);
+  top: calc(50% - 151.5px + 9px);
+}
+
+.getup {
+  justify-content: center;
+  width: 465px;
+  height: 48px;
+  left: 488px;
+  top: 40px;
+  right: 487px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.newcorse {
+  justify-content: center;
+  width: 334px;
+  height: 30px;
+  left: calc(50% - 167px - 0.5px);
+  top: 108px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6b6b6b;
+}
+
+.email {
+  height: 70px;
+  left: 0.11%;
+  right: 33.01%;
+  top: 0.02px;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px #fc0a7e;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.text-input {
+  width: 153px;
+  height: 26px;
+  left: calc(50% - 76.5px - 152.5px);
+  top: 22.02px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  background-color: var(--hover-bg-prbutton);
+  background-size: contain;
+  border-color: transparent;
+  background-origin: border-box;
+}
+
+.button {
+  height: 70px;
+  left: 66.99%;
+  right: -0.11%;
+  top: 0.02px;
+  background: #fc0a7e;
+  border-radius: 0px 3px 3px 0px;
+}
 
 .review-person {
   font-family: "Gothic A1";
@@ -918,6 +1077,7 @@ img {
   padding: 0.3px auto;
 }
 
+
 .footer__logo {
   display: flex;
   justify-content: center;
@@ -927,9 +1087,18 @@ img {
 }
 
 
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
 .list {
   list-style: none;
 }
+
 
 .soc-list {
   display: flex;
@@ -974,4 +1143,21 @@ img {
   height: 250px;
   background-color: aqua;
 
+
+
+.soc-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.soc-list__link {
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 1.82;
+  text-align: center;
+  color: #6B6B6B;
 }/*# sourceMappingURL=index.css.map */
