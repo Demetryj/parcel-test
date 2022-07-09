@@ -1,0 +1,42 @@
+.conteiner-partners {
+  min-width: 1140px;
+  padding-right: 72px;
+  padding-left: 72px;
+}
+
+.partners-section {
+  padding: 40px 144px;
+}
+
+.partners {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.partners_item {
+  padding: 0;
+  margin: 0;
+}
+
+.partners_link {
+  text-decoration: none;
+  text-align: center;
+  display: inline;
+  color: grey;
+  background-color: transparent;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  height: 35px;
+  &:focus,
+  &:hover {
+    color: tomato;
+  }
+}

@@ -1,0 +1,43 @@
+.adventures {
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-top: 40px;
+}
+
+.adventures-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.adventures-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.adventures-block {
+  max-width: 450px;
+  padding-right: 58px;
+  padding-left: 58px;
+}
+.images-adventures {
+  width: 341px;
+  height: 637px;
+  background-color: #6b6b6b;
+}
+.adventures-top-text {
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #a8a8a8;
+}
+.adventures-title {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #000000;
+}
+.adventures-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #6b6b6b;
+}

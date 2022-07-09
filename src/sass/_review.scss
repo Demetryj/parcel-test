@@ -1,0 +1,104 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img {
+  margin: 0;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.review {
+  padding: 160px 288px 106px 288px;
+}
+.review-text {
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1, 67;
+  text-align: center;
+  color: #6b6b6b;
+  margin-bottom: 15px;
+}
+.reviem-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.review-city {
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 88;
+  text-align: center;
+  color: #6b6b6b;
+}
+.review-line {
+  width: 30px;
+  height: 1px;
+  background-color: #d3d3d3;
+  margin-right: 20px;
+}
+.review-person {
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 88;
+  text-align: center;
+  color: #6b6b6b;
+  margin-right: 20px;
+}
+.review-symbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.review-point {
+  width: 7px;
+  height: 7px;
+  background: rgba(34, 34, 34, 0.4);
+  margin-left: 16px;
+}
+.review-dot {
+  width: 7px;
+  height: 7px;
+  background: #222222;
+}
+.review-image {
+  display: block;
+  width: 58px;
+  height: 54px;
+  border-radius: 0px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.review-partner {
+  width: 1008px;
+  height: 35px;
+  // margin-left: auto;
+  // margin-right: auto;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
