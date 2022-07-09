@@ -1,0 +1,31 @@
+.footer {
+    width: 1440px;
+    height: 242px;
+    background-color: #1B1B1B;
+    padding: 0.3px auto;
+}
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.list {
+    list-style: none;
+}
+.soc-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.soc-list__link {
+    font-size: 11px;
+    text-decoration: none;
+    line-height: 1.82;
+    text-align: center;
+    color: #6B6B6B;
+}
