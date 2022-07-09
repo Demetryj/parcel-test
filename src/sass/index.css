@@ -27,6 +27,7 @@
 }
 
 
+
 h1,
 h2,
 h3,
@@ -48,6 +49,7 @@ ol {
 a {
   text-decoration: none;
 }
+
 
 
 /* Стили для подложки */
@@ -117,6 +119,82 @@ a {
   color: #fff;
   border-radius: 3px;
 }
+
+
+.menu {
+  font-family: "Gothic A1", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.menu__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu__list {
+  list-style: none;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+.menu__item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.menu__info {
+  width: 330px;
+}
+.menu__item:nth-child(2n) .menu__info {
+  margin-left: 77px;
+}
+.menu__item:nth-child(2n+1) .menu__info {
+  margin-right: 77px;
+}
+
+.menu__img {
+  width: 519px;
+  height: 414px;
+  background-color: #6b6b6b;
+}
+
+.menu__pretitle {
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.menu__title {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.menu__desc {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #6b6b6b;
+  margin: 0;
+}
+
+.menu__text-mark {
+  font-weight: 700;
+  line-height: 1.88;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 
 
 .section__getupdates {
@@ -245,5 +323,6 @@ a {
   line-height: 1.3;
   text-align: center;
   color: #000000;
+
 
 }/*# sourceMappingURL=index.css.map */
