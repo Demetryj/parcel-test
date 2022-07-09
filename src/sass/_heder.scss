@@ -3,13 +3,13 @@
   width: 1440px;
   padding: 29px 15px 28px;
   align-items: center;
-  background-image: linear-gradient(
-    to right,
-    rgba(207, 0, 99, 1),
-    rgba(69, 14, 75, 1),
-    rgba(60, 12, 65, 1),
-    rgba(207, 0, 99, 0)
-  );
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0%,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
 }
 .header__logo {
   margin: 0;
