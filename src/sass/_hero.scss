@@ -1,0 +1,78 @@
+.container {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero {
+  background-color: #cf0063;
+  background-image: linear-gradient(
+    287.15deg,
+    #450e4b 0%,
+    #3c0c41 24.48%,
+    rgba(207, 0, 99, 0) 100%
+  );
+}
+
+.hero__container {
+  padding-top: 298px;
+  padding-bottom: 277px;
+  padding-left: 144px;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-family: 'Gothic A1';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1;
+
+  color: #ffffff;
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-size: 30px;
+  line-height: 1.47;
+
+  color: #ffffff;
+}
+
+.hero__btn {
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  color: #ffffff;
+  transition: background-color 250ms ease-in-out;
+}
+
+.hero__btn:focus,
+.hero__btn:hover {
+  background-color: #450e4b;
+}
+
+.btn {
+  margin: 0;
+  height: 66px;
+  min-width: 170px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  background-color: #fc0a7e;
+}
+
+.hero__img {
+  position: absolute;
+  bottom: 0;
+  right: 44px;
+}
