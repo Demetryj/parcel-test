@@ -1,11 +1,11 @@
 $('.slider-list').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 300,
   slidesToShow: 1,
   adaptiveHeight: true,
   arrows: true,
-  nextArrow: '.next',
-  prevArrow: '.prev',
-  autoplay: true,
+  nextArrow: '.prev',
+  prevArrow: '.next',
+  // autoplay: true,
 });
